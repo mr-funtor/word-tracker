@@ -41,7 +41,7 @@ button{
 	background:black;
 	color:white;
 	margin-top: 10px;
-	/* position:relative; */
+	position:relative;
 	display:block;
 	height:25px;
 	width: 100px;

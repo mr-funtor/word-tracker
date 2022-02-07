@@ -8,8 +8,6 @@ function showWords(){
 	
 	allWords=JSON.parse(localStorage.getItem('ASL')) || [];
 	
-	allWordsDisplay.innerHTML="";
-	
 	allWords.forEach((word)=>{
 		allWordsDisplay.innerHTML+=`<p>${word}</p>`
 	})
